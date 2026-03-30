@@ -3,6 +3,7 @@ name: Import Wiki.js to ACR
 on:
   push:
     branches: [ "main" ]
+  workflow_dispatch:
 
 jobs:
   retag-and-push:
